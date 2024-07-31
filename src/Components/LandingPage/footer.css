@@ -1,0 +1,74 @@
+.footer {
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    padding: 10px 20px; /* Reduce padding */
+    box-sizing: border-box;
+  }
+  
+  img {
+    width: 68px;
+    height: 68px;
+    opacity: 1; /* Make the image visible */
+  }
+  
+  .frame137 {
+    width: 100%;
+    display: flex;
+    justify-content: space-between; /* Space between elements */
+    align-items: center;
+  }
+  
+  .frame27 {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  #logo-in-footer{
+    height: 100px ;
+    width: 200px;
+  }
+  .frame88 {
+    background-color: rgb(0, 0, 0);
+    width: 60%;
+    display: grid; /* Use grid layout */
+    grid-template-columns: repeat(3, 1fr); /* 3 columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 10px; /* Gap between grid items */
+    padding: 10px; /* Reduce padding */
+    margin-right: 0; /* Shift frame88 to the end */
+    box-sizing: border-box;
+  }
+  
+  .link {
+    display: contents; /* Allow the a tags to be direct children of the grid container */
+  }
+  
+  a {
+    font-family: Gidugu;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0; /* Reduce margin */
+  }
+  
+  .frame93 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Align items vertically */
+    background-color: rgba(0, 0, 0, 0.1); /* Optional: add some background for contrast */
+    color: white;
+    padding: 5px 20px; /* Adjust padding for spacing */
+    box-sizing: border-box;
+  }
+  
+  .social-media {
+    display: flex;
+    align-items: center; /* Align vertically */
+    gap: 10px;
+  }
+  

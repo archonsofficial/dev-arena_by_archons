@@ -1,0 +1,38 @@
+.c4{
+    z-index: 1;
+    background-color: #070808;
+    width: 30vw;
+    height: 80vh;
+    margin: 0.5%;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+
+  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+}
+#app4img{
+    padding:10px;
+    width: 95%;
+    height: 50%;
+}
+.a4textbox{
+    margin-top: 10px;
+    padding-inline: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.a4textbox p{
+        font-family: Gidugu;
+      font-size: 25px;
+      font-weight: 300;
+      line-height: 23px;
+      text-align: left;
+      color: #CE4257;
+}
+.First-border{
+border: 4px solid rgba(241, 160, 47, 1);
+}
+.Second-border{
+  border: 4px solid rgba(240, 242, 119, 1);
+}
