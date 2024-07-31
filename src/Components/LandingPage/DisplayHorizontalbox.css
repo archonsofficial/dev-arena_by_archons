@@ -1,0 +1,60 @@
+.c3{
+ 
+  z-index: 1;
+  background-color: #070808;
+  width: 97%;
+  height: 80%;
+  margin-block: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  border-radius: 16px;
+  align-items: center; /* Optional: Add border-radius for rounded corners */
+  
+  }
+  .a3text{
+    font-family: Gidugu;
+  font-size: 25px;
+  font-weight: 300;
+  text-align: left;
+  color: #CE4257;
+  margin-bottom: 20px;
+  }
+  
+  .a3textbox{
+    width: 56%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  }
+  .DH-image-box{
+    height: 85%;
+    width: 39%;
+  }
+  .DH-image-box  img{
+    height: 100%;
+    width: 100%;
+  }
+  .border1{
+    background: linear-gradient(to right, #DF8492, #EDBBC3 ,#CE4257);
+  }
+  .border2{
+    background: linear-gradient(to  right, #C83584, #D767A3 ,#631A41);
+  }
+  .border3{
+    background: linear-gradient(to bottom right, #F3B051, #D767A3 ,#631A41);
+  }
+  .border4{
+    background: linear-gradient(to top left, #F3B051, #D767A3 ,#631A41);
+  }
+  .DH-inner-container{
+    height: 96%;
+    width: 99%;
+background: #070808;
+    display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center; 
+  border-radius: 16px;
+  }
