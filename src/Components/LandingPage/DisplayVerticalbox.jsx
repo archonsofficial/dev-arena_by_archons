@@ -4,20 +4,26 @@ function DVBox({i,Cname}){
     return (
         <>
         <div className={`c4 ${Cname}`}>
-        <img id='app4img' src="https://placehold.jp/150x150.png" />
+       <div className="DV-inner-container">
+       <img id='app4img' src={data[i].img} />
             <div className="a4textbox">
                 <p>{data[i].header}</p>
                 <p2>{data[i].desc}</p2>
             </div>
+       </div>
         </div>
-
         <div className={`c4 ${Cname}`}>
-        <img id='app4img' src="https://placehold.jp/150x150.png" />
+       <div className="DV-inner-container">
+       <img id='app4img' src={data[++i].img} />
             <div className="a4textbox">
-                <p>{data[++i].header}</p>
+                <p>{data[i].header}</p>
                 <p2>{data[i].desc}</p2>
             </div>
+       </div>
         </div>
+
+
+   
         </>
     )
 }

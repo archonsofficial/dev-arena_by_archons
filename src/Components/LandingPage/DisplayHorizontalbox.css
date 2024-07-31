@@ -31,6 +31,10 @@
   .DH-image-box{
     height: 85%;
     width: 39%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDBAC2;
   }
   .DH-image-box  img{
     height: 100%;
@@ -57,4 +61,25 @@ background: #070808;
   justify-content: center;
   align-items: center; 
   border-radius: 16px;
+  }
+  #streak-counter{
+    height: 119%;
+    width: 39%;
+  }
+  #analytics img{
+    height: 97%;
+    width: 50%;
+  }
+  #analytics{
+    background-color: #5435602B;
+  }
+  #tech-tags{
+    background-color: #5435602B;
+    position: relative;
+  }
+  #tech-tags img{
+    width: 130%;
+    height: 57%;
+    position: absolute;
+    left: 16%;
   }

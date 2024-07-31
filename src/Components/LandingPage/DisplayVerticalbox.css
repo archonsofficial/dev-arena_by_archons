@@ -7,17 +7,20 @@
     display: flex;
     flex-direction: column;
 align-items: center;
+justify-content: center;
 
-  border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+  border-radius: 16px; /* Optional: Add border-radius for rounded corners */
 }
 #app4img{
     padding:10px;
-    width: 95%;
+    width: 100%;
     height: 50%;
+    border-radius: 4px;
+    margin-top: 5px;
 }
 .a4textbox{
     margin-top: 10px;
-    padding-inline: 10%;
+    padding-inline: 5%;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -31,8 +34,18 @@ align-items: center;
       color: #CE4257;
 }
 .First-border{
-border: 4px solid rgba(241, 160, 47, 1);
+background: linear-gradient(to bottom,#F1A02F ,#F8CF97,#EA9010);
 }
-.Second-border{
-  border: 4px solid rgba(240, 242, 119, 1);
+.Second-border{background: linear-gradient(to bottom,#EDF060 ,#F5F7A4,#F0F277);
+}
+.DV-inner-container{
+  height: 97.6%;
+  width: 97.5%;
+background: #070808;
+  display: flex;
+flex-direction: column;
+/* justify-content: center; */
+align-items: center; 
+border-radius: 16px;
+gap: 20px;
 }

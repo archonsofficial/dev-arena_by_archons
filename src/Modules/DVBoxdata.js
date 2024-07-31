@@ -1,15 +1,25 @@
+import weekly_chalenges from '../assets/Weekly_challenges.png'
+import league from '../assets/League_System.png'
+import networking from '../assets/Community_and_networking.png'
+import maketeam from '../assets/Team.png'
+
+
 export const data =[
-{header:"Make your own team",
+{ img: weekly_chalenges,
+    header:"Make your own team",
 desc:"Form teams with developers worldwide to work on projects and compete in challenges"
 },
-{header:"Community & Networking",
+{ img: league,
+    header:"Community & Networking",
  desc:" Connect with like-minded individuals, join forums, and attend virtual events."
 },
 //    Challenges & Competitions
-{header:"Weekly challenges",
+{ img: networking,
+    header:"Weekly challenges",
  desc:"Solve real-world problems and test your skills."
  },
- {header:"League System",
+ { img: maketeam,
+    header:"League System",
  desc:"Compete in the CodePlay League, climb the leaderboard, and earn rewards"
 }
 ]

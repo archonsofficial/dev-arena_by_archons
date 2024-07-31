@@ -15,14 +15,6 @@ const Example = () => {
     return(
 <>
 
-{/* <div className="FAQ-box">
-   <div className={`question ${isclicked?'question-reset':''}`} onClick={handleclick} > <h3>{data[i].Question}</h3></div>
-    <div className={`${isclicked?'answer':'answer-display'}`}><p>{data[i].Answer}</p></div>
-    {/* <div className="dropdown"><img src="" alt="" /></div> 
-    </div>
-    */}
-
-
 <div className="accordian  "  onClick={handleclick}>
     <div className="question">
         <h4>{data[i].Question}</h4>

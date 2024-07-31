@@ -27,19 +27,18 @@ import './OurMission.css'
         </div>
         </div>
        </div>
-        <div className="mission-box text" id="mb1" >Promote Global Collaboration<p  >
+        <div className="mission-box text" id="mb1" ><p className='mb-inner' >Promote Global Collaboration</p></div>
+        <div className="mission-box text" id="mb2" ><p className='mb-inner' >Foster Skill Development
         </p></div>
-        <p className="mission-box text" id="mb2">Foster Skill Development
-        </p>
-        <p className="mission-box text" id="mb3">Recognize and Reward Achievement
-        </p>
-
-        <p className="mission-box text" id="mb4">Make Coding Fun and Engaging
-        </p>
-        <p className="mission-box text" id="mb5">Track and Analyze Progress
-        </p>
-        <p className="mission-box text" id="mb6">Solve Real-World Challenges
-        </p>
+        <div className="mission-box text" id="mb3" ><p className='mb-inner' >Make Coding Fun and Engaging
+        </p></div>
+        <div className="mission-box text" id="mb4" ><p className='mb-inner' >Recognize and Reward Achievement
+        </p></div>
+        <div className="mission-box text" id="mb5" ><p className='mb-inner' >Track and Analyze Progress
+        </p></div>
+        <div className="mission-box text" id="mb6" ><p className='mb-inner' >Prepare for Real-World Challenges
+        </p></div>
+       
 
         </div>
       </div>

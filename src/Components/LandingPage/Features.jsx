@@ -10,7 +10,7 @@ export default function Features() {
         <div className="container app3-container">
           <p1 className="lp">Learn & Practice</p1>
          <DHBox i={0} Cname="border1"/>
-         <DHboxAltside j={1} Cname="border1"/>
+         <DHBox i={1} Cname="border1"/>
          <DHBox i={2} Cname="border1"/>
         </div>
         <div className="glow-circle3"></div>
@@ -26,8 +26,8 @@ export default function Features() {
          </div>
         
         </div>
-        <div className="glow-circle gc5"></div>
-        <div className="glow-circle gc6"></div>
+        {/* <div className="glow-circle gc5"></div>
+        <div className="glow-circle gc6"></div> */}
       </div>
 {/* Challenges & Competitions*/}
 <div className="app3">
@@ -47,9 +47,9 @@ export default function Features() {
  <div className="app3">
         <div className="container  AandR-container" >
           <p1 className="lp">Achievements & Rewards</p1>
-         <DHBox i={3} Cname="border2"/>
-         <DHboxAltside j={4} Cname="border2"/>
-         <DHBox i={5} Cname="border2"/>
+         <DHboxAltside j={3} Cname="border2"/>
+         <DHBox i={4} Cname="border2"/>
+         <DHboxAltside j={5} Cname="border2"/>
         </div>
         {/* <div className="glow-circle3"></div>
         <div className="glow-circle4"></div> */}
