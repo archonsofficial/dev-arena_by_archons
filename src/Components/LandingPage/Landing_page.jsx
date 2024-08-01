@@ -1,7 +1,9 @@
 import navroboimg from "../../assets/navrobo.png";
 import backgroundVideo from "../../assets/bg_v1.mp4";
 import mascot from "../../assets/marcot.png";
-import dev_arena_logo from "../../assets/dev_arena_logo.png"
+import dev_arena_logo from "../../assets/dev_arena_logo.png";
+import { Link } from 'react-router-dom';
+
 
 export default function Landing_page() {
   return (
@@ -39,7 +41,7 @@ export default function Landing_page() {
             <div className="text1">Dev-Arena: Unite, Create, Conquer!</div>
           </div>
           <div className="text1" id="playnow">
-            PLAY NOW
+          <Link to="/home">PLAY NOW</Link>
           </div>
         </div>
         <div className="circular-glow">hello </div>
