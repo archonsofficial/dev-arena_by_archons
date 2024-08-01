@@ -6,9 +6,9 @@ Hi There! We are Team Archons 1st Year Undergraduate Students From Lucknow Unive
 The site is not complete yet, we will be updating the code on regular basis and more features will be added.
 The uploaded Files and the entire project is on Early Development Stage. You may face few errors and glitches.
 
-# Welcome to DEV-ARENA
-## Where coding meets gaming and teamwork
-## Where Teams Thrive and Skills Come Alive 
+# Welcome to DEV-ARENA: ## Where coding meets gaming and teamwork
+
+
 Dev-Arena was built to address the challenges of finding and collaborating with team members in web development.
 
 - Showcase your skills as tech tags by completing tasks.
