@@ -74,4 +74,4 @@ https://youtu.be/qZo3XWts08c
 
 
 ## Contact us 
-or any inquiries or support, please contact us at archonsofficial@gmail.com
+For any inquiries or support, please contact us at archonsofficial@gmail.com
