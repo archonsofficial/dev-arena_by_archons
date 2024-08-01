@@ -67,7 +67,7 @@ https://youtu.be/qZo3XWts08c
 - FIGMA
 - HTML CSS JAVASCRIPT
 - REACT
-- Chakra UI
+- CHAKRA UI
 - MONGO DB
 - MONGOOSE
 - NODE JS
