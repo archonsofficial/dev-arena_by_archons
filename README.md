@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+## About Us
+Hi There! We are Team Archons 1st Year Undergraduate Students From Lucknow University.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Disclaimer
 
-## Available Scripts
+The site is not complete yet, we will be updating the code on regular basis and more features will be added.
+The uploaded Files and the entire project is on Early Development Stage. You may face few errors and glitches.
 
-In the project directory, you can run:
 
-### `npm start`
+# Welcome to DEV-ARENA
+ ## Where coding meets gaming and teamwork
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Dev-Arena was built to address the challenges of finding and collaborating with team members in web development.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- Showcase your skills as tech tags by completing tasks.
+- Easily find team members with the required tech tags and skills. 
+- Collaborate seamlessly with your team using integrated tools and resources.
+- Embarks on a gamified development journey that makes learning fun and engaging.
+- One of the best aspect of Dev-Arena is the battle feature. Form teams and compete against each other.
+- Test your skills, push your limits, and see who's the best in the arena.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Problem Statement 
 
-### `npm run build`
+Aspiring web developers often lack opportunities to work with others, learn from experienced professionals, and build a network.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Many online platforms lack efficient team formation and skill development mechanisms.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Finding teammates with the right skillsets for projects can be time-consuming and frustrating. 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+There's a lack of engaging ways for individuals and teams to collaborate on tasks and challenges.
 
-### `npm run eject`
+Traditional learning methods lack motivation systems that celebrate progress and encourage continuous learning.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Solution Overview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+We propose a platform that addresses these challenges by:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. Skill-based user profiles 
+ Introduce "Tech Tags" that represent the user's technical skills. Users earn tags by completing relevant tasks and challenges on the platform.
+    
+2. Dynamic team formation
+ Allow users to create and join teams with specific tech tag requirements. This streamlines finding compatible teammates with the necessary skills.
 
-## Learn More
+3. Collaborative challenges and rewards
+ Design engaging challenges and tasks that teams can complete together. Completing these tasks and rewards both the individual and the team, boosting their XP level and unlocking access to higher leagues within the platform.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+This solution will create a vibrant online community where
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Users can effectively showcase and develop their tech skills.
+Teams can be formed quickly and efficiently based on specific project needs.
+Collaboration and skill development are incentivized through engaging challenges and a rewarding league system.
 
-### Code Splitting
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## Important Links 
 
-### Analyzing the Bundle Size
+Figma UI Design
+https://www.figma.com/design/5PwmkAyjJNvybqfrj4Rqrd/Dev-Arena-_UI?node-id=3-2&t=7dM2CabwzxEy9EBa-1
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Demo Vedio
+https://youtu.be/qZo3XWts08c
 
-### Making a Progressive Web App
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+## Tech Stack 
 
-### Advanced Configuration
+- FIGMA
+- HTML CSS JAVASCRIPT
+- REACT
+- MONGO DB
+- MONGOSE
+- NODE JS
+- EXPRESS JS
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Contact us 
+For any inquiries or support, please contact us at archonsofficial@gmail.com
