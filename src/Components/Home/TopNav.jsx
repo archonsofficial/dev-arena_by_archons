@@ -8,9 +8,9 @@ import profile from "../../../src/assets/profile.jpeg";
 
 import "./Home.css";
 
-function Top_nav() {
+function TopNav() {
   return (
-    <nav className="top_nav">
+    <nav className="TopNav">
       <div className="frame1" id="frame11">
         <img src={logo} alt="log" className="logo" />
         <button id="lngbtn">
@@ -20,7 +20,7 @@ function Top_nav() {
       </div>
       {/* <div className="frame1" id="frame12"></div> */}
 
-      <div className="frame1"  id="frame12">
+      <div className="frame1" id="frame12">
         <button id="credits">
           Credits
           <img src={credits} alt="" />
@@ -41,4 +41,4 @@ function Top_nav() {
   );
 }
 
-export default Top_nav;
+export default TopNav;

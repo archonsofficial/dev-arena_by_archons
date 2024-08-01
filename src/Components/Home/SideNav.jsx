@@ -1,10 +1,20 @@
-import React from 'react'
+import React from "react";
 import "./Home.css";
-import { FaHome, FaUser, FaChartBar,FaBattleNet, FaUsers, FaGamepad, FaQuestionCircle, FaCog, FaSignOutAlt, FaBars, FaArrowLeft } from 'react-icons/fa';
+import {
+  FaHome,
+  FaUser,
+  FaChartBar,
+  FaBattleNet,
+  FaUsers,
+  FaGamepad,
+  FaQuestionCircle,
+  FaCog,
+  FaSignOutAlt,
+  FaBars,
+  FaArrowLeft,
+} from "react-icons/fa";
 
-
-
-function Side_nav() {
+function SideNav() {
   return (
     <div className="sideNav">
       <div className="menuHeader">
@@ -38,7 +48,6 @@ function Side_nav() {
           <span>Game</span>
         </li>
         <div className="menuFooter">
-            
           <li className="menuItem">
             <FaQuestionCircle className="menuIcon" />
             <span>Support</span>
@@ -57,6 +66,4 @@ function Side_nav() {
   );
 }
 
-
-
-export default Side_nav;
+export default SideNav;
