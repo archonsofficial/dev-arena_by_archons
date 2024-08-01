@@ -5,7 +5,7 @@ function DVBox({i,Cname}){
         <>
         <div className={`c4 ${Cname}`}>
        <div className="DV-inner-container">
-       <img id='app4img' src={data[i].img} />
+      <div className="app4img-container"> <img id={`${i==0?'maketeam':'weekly-challenges'}`} src={data[i].img} /></div>
             <div className="a4textbox">
                 <p>{data[i].header}</p>
                 <p2>{data[i].desc}</p2>
@@ -14,7 +14,7 @@ function DVBox({i,Cname}){
         </div>
         <div className={`c4 ${Cname}`}>
        <div className="DV-inner-container">
-       <img id='app4img' src={data[++i].img} />
+       <div className="app4img-container"> <img id={`${++i==1?'maketeam':'league'}`} src={data[i].img} /></div>
             <div className="a4textbox">
                 <p>{data[i].header}</p>
                 <p2>{data[i].desc}</p2>

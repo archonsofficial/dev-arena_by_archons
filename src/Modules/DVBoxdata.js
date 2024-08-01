@@ -5,20 +5,20 @@ import maketeam from '../assets/Team.png'
 
 
 export const data =[
-{ img: weekly_chalenges,
+{ img: maketeam,
     header:"Make your own team",
 desc:"Form teams with developers worldwide to work on projects and compete in challenges"
 },
-{ img: league,
+{ img: networking ,
     header:"Community & Networking",
  desc:" Connect with like-minded individuals, join forums, and attend virtual events."
 },
 //    Challenges & Competitions
-{ img: networking,
+{ img:weekly_chalenges,
     header:"Weekly challenges",
  desc:"Solve real-world problems and test your skills."
  },
- { img: maketeam,
+ { img: league,
     header:"League System",
  desc:"Compete in the CodePlay League, climb the leaderboard, and earn rewards"
 }
