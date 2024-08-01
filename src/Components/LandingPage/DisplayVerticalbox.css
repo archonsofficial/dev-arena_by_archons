@@ -11,12 +11,16 @@ justify-content: center;
 
   border-radius: 16px; /* Optional: Add border-radius for rounded corners */
 }
-#app4img{
+.app4img-container{
     padding:10px;
-    width: 100%;
+    width: 94%;
     height: 50%;
     border-radius: 4px;
-    margin-top: 5px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #EDBAC2;
 }
 .a4textbox{
     margin-top: 10px;
@@ -48,4 +52,16 @@ flex-direction: column;
 align-items: center; 
 border-radius: 16px;
 gap: 20px;
+}
+#maketeam{
+  height: 95%;
+  width: 57%;
+}
+#weekly-challenges{
+  height: 51%;
+  width: 100%
+}
+#league{
+  height: 90%;
+  width: 70%;
 }
