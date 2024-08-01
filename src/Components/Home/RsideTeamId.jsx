@@ -1,6 +1,6 @@
 import React from "react";
 import Profile from "../../../src/assets/team_profile.jpeg";
-import "./id_page.css";
+import "./IdPage.css";
 import CircularProgressBar from "./CircularProgressBar";
 import Profile_badge from "../../../src/assets/team_badge.png";
 import Profile_star from "../../../src/assets/profile_star.png";
@@ -30,20 +30,20 @@ const LeaderName = ({ leaderName }) => {
 
 const Bio = ({ text }) => {
   // return <p>{text}</p>;
-  // returm <p1>"Starwind: Empowering coders with rewards for continuous coding achievements"</p1>
+  // returm <p>"Starwind: Empowering coders with rewards for continuous coding achievements"</p>
   return (
-    <p1 className="bio-id-text">
-       beginners into coding heroes with a supportive environment,
-      hands-on projects.
-    </p1>
+    <p className="bio-id-text">
+      beginners into coding heroes with a supportive environment, hands-on
+      projects.
+    </p>
   );
 };
 
-function Rside_team_id() {
+function RsideTeamId() {
   return (
     <div className="side-id-team">
       <div className="profile-badge">
-        <div class="glow-circle gc1" id="glow-circle gc1 team"></div>
+        <div className="glow-circle gc1" id="glow-circle gc1 team"></div>
         <img src={Profile_badge} alt="img" className="side-idTeam-icon" />
         <ProfilePicture />
       </div>
@@ -55,7 +55,7 @@ function Rside_team_id() {
         </div>
 
         <div className="progress-team">
-          <div class="glow-circle-gc0-team"></div>
+          <div className="glow-circle-gc0-team"></div>
           <img src={Profile_star} alt="" className="progress_icon-team" />
           <CircularProgressBar size={45} progress={75} strokeWidth={5} />
         </div>
@@ -64,7 +64,7 @@ function Rside_team_id() {
         <LeaderName />
         <div className="progress-team" id="progress-team-streak">
           <div
-            class="glow-circle-gc0-team"
+            className="glow-circle-gc0-team"
             id="glow-circle-gc0-team-star"
           ></div>
           <img
@@ -80,4 +80,4 @@ function Rside_team_id() {
   );
 }
 
-export default Rside_team_id;
+export default RsideTeamId;

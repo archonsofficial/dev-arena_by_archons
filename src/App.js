@@ -1,25 +1,22 @@
 //
 import React from "react";
 import "./App.css";
-import Landing_page from "./Components/LandingPage/Landing_page";
+import LandingPage from "./Components/LandingPage/LandingPage";
 import Footer from "./Components/LandingPage/footer";
 import OurMission from "./Components/LandingPage/OurMission";
 import Features from "./Components/LandingPage/Features";
-import FAQ_page from "./Components/LandingPage/FAQ_page";
-import Testimonial_page from "./Components/LandingPage/Testimonial_page";
+import FAQPage from "./Components/LandingPage/FAQPage";
+import TestimonialPage from "./Components/LandingPage/TestimonialPage";
 
 function App() {
-
   return (
     <>
-    <Landing_page/>
-    <Features/>
-<FAQ_page/>
-<Testimonial_page/>
-<OurMission/>
-<Footer/>
-  
-
+      <LandingPage />
+      <Features />
+      <FAQPage />
+      <TestimonialPage />
+      <OurMission />
+      <Footer />
     </>
   );
 }
