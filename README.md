@@ -1,5 +1,5 @@
 ## About Us
-Hi There! We are Team Archons 1st Year Undergraduate Students From Lucknow University.
+Hi There! We are Team Archons 2nd Year Undergraduate Students From Lucknow University.
 
 ## Disclaimer
 
@@ -67,8 +67,9 @@ https://youtu.be/qZo3XWts08c
 - FIGMA
 - HTML CSS JAVASCRIPT
 - REACT
+- CHAKRA UI
 - MONGO DB
-- MONGOSE
+- MONGOOSE
 - NODE JS
 - EXPRESS JS
 
