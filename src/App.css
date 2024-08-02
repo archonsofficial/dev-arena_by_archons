@@ -146,7 +146,9 @@ nav img {
   letter-spacing: 0.29em;
   text-align: center;
 }
-
+#playnow a{
+  font-size: 30px;
+}
 #playnow {
   cursor: pointer;
   margin-top: 8%;

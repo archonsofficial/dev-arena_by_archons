@@ -44,7 +44,6 @@ export default function Landing_page() {
           <Link to="/home">PLAY NOW</Link>
           </div>
         </div>
-        <div className="circular-glow">hello </div>
       </div>
       <div className="app2">
         <div className="content2">
