@@ -9,7 +9,7 @@ function DHBox({i,Cname}){
             <div className="a3textbox">
                 <p className="a3text">{data[i].H1}</p>
             <p2>{data[i].desc}.</p2></div>
-            <div className="DH-image-box" ><img  id={`${i==4?'streak-counter':''}`} src={data[i].img} alt="" /></div>
+            <div className="DH-image-box" ><img  id={`${i==4?'streak-counter':`${i<=2?'dailyquizes':''}`}`} src={data[i].img} alt="" /></div>
           </div>
       </div>
         </>
